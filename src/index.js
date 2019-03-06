@@ -125,6 +125,9 @@ Promise.race([getName(),getAge(),getJob(),timeout()]).then((data)=>{
 
 })
 
+//但是Promise到底解决了什么样的问题  就仅仅是编写方式 更加的直爽了吗?  解决了地狱回调问题.
+//https://juejin.im/post/5b45bea65188251b1c3ce1ec
+
 
 
 // axios.get('http://127.0.0.1:3000/mock/one.json')
