@@ -21,9 +21,9 @@ console.log("=====================华丽的分割线======================")
 //     }
 // })
 
-
+//这是一篇Promise的文章我觉得不错
 //http://www.cnblogs.com/lvdabao/p/es6-promise-1.html
-
+//这是一篇async await的文章 我觉得的不错
 //https://segmentfault.com/a/1190000007535316
 
 //创建的时候
