@@ -3,6 +3,38 @@
 
 import * as $ from './utilities/ajax.js';
 
+// import name from './utilities/test.js';
+// name();
+
+import * as math from './utilities/add.js';
+console.log(math.add(1,2));
+console.log(math.subtration(2,1));
+console.log(math.multiply(2,2));
+
+// import {add,subtration,multiply} from './utilities/add.js'
+// console.log(add(1,2));
+// console.log(subtration(2,1));
+// console.log(multiply(2,2));
+
+
+console.log('%c =====================华丽的分割线======================', 'color:yellow');
+let a=1;
+if(a>0){
+   import('./utilities/test.js').then((name)=>{
+       console.log('我的天安')
+       console.log(name.default());
+   })
+   // import 函数返回一个Promise对象
+   // import() 可以动态生成路径
+   // import()加载模块成功以后,这个模块会作为一个对象,当做then方法的参数,
+   
+}
+
+
+
+console.log('%c =====================华丽的分割线======================', 'color:green');
+
+
 
 //ES6的包管理功能到底怎么用
 
@@ -13,10 +45,10 @@ import * as $ from './utilities/ajax.js';
 
 console.log("执行开始");
 
-console.log("console.dir()");
+console.log("console.dir()的用法");
 console.dir(Promise);
 
-console.log('%c =====================华丽的分割线======================', 'color:red');
+console.log('%c =====================华丽的分割线======================', 'color:green');
 
 // $.get('http://127.0.0.1:3000/mock/one.json',{},function (data) {
 //     console.log("第一次请求接口返回结果");
